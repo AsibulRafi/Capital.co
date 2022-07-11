@@ -6,6 +6,7 @@ import About from "./Pages/About";
 import AccountsTypes from "./Pages/AccountsTypes";
 import Home from "./Pages/Home";
 import KYC from "./Pages/KYC";
+import Privacy from "./Pages/Privacy";
 import Products from "./Pages/Products";
 import Terms from "./Pages/Terms";
 import Webtrader from "./Pages/Webtrader";
@@ -21,6 +22,7 @@ const App = () => {
         <Route path="/platform" element={<Webtrader />} />
         <Route path="/resources" element={<Terms />} />
         <Route path="/kyc" element={<KYC />} />
+        <Route path="/privacy" element={<Privacy />} />
       </Routes>
       <Footer />
     </BrowserRouter>
