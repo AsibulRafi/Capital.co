@@ -39,7 +39,9 @@ const AccountsTypes = () => {
             <h2>$129.99</h2>
             <h4>/Yearly Package</h4>
           </div>
-          <button className="accountTypes__single-btn">Choose</button>
+          <button className="accountTypes__single-btn">
+            <a href="https://client.capitalco.pro/register">Choose</a>
+          </button>
         </div>
         <div className="accountTypes__single">
           <h2 className="accountTypes__single-heading">The Start Up Plan</h2>
@@ -72,7 +74,9 @@ const AccountsTypes = () => {
             <h2>$129.99</h2>
             <h4>/Yearly Package</h4>
           </div>
-          <button className="accountTypes__single-btn">Choose</button>
+          <button className="accountTypes__single-btn">
+            <a href="https://client.capitalco.pro/register">Choose</a>
+          </button>
         </div>
         <div className="accountTypes__single">
           <h2 className="accountTypes__single-heading">The Start Up Plan</h2>
@@ -105,7 +109,9 @@ const AccountsTypes = () => {
             <h2>$129.99</h2>
             <h4>/Yearly Package</h4>
           </div>
-          <button className="accountTypes__single-btn">Choose</button>
+          <button className="accountTypes__single-btn">
+            <a href="https://client.capitalco.pro/register">Choose</a>
+          </button>
         </div>
         <div className="accountTypes__single">
           <h2 className="accountTypes__single-heading">The Start Up Plan</h2>
@@ -138,7 +144,9 @@ const AccountsTypes = () => {
             <h2>$129.99</h2>
             <h4>/Yearly Package</h4>
           </div>
-          <button className="accountTypes__single-btn">Choose</button>
+          <button className="accountTypes__single-btn">
+            <a href="https://client.capitalco.pro/register">Choose</a>
+          </button>
         </div>
       </section>
       <ContactUs />

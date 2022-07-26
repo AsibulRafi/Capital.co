@@ -1,6 +1,5 @@
 import React from "react";
 import Carousel from "react-elastic-carousel";
-import { Link } from "react-router-dom";
 import homeSlider1 from "../Assets/homeSlider1.png";
 import homeSlider2 from "../Assets/homeSlider2.png";
 import homeSlider3 from "../Assets/homeSlider3.png";
@@ -31,9 +30,12 @@ const Slider = () => {
                 <p> - The latest financial news and forecasts </p>
                 <p> - Weekly webinars with live Q&A</p>
               </div>
-              <Link to="/" className="open__acc">
+              <a
+                href="https://client.capitalco.pro/register"
+                className="open__acc"
+              >
                 Open Account
-              </Link>
+              </a>
             </div>
             <div className="homeSlider__img">
               <img src={homeSlider1} alt="homeSlider" />
@@ -57,9 +59,12 @@ const Slider = () => {
                 <p>- Forex - Commodities - Metals - Energies </p>
                 <p>- Crypto - Indices - Equities </p>
               </div>
-              <Link to="/" className="open__acc">
+              <a
+                href="https://client.capitalco.pro/register"
+                className="open__acc"
+              >
                 Open Account
-              </Link>
+              </a>
             </div>
             <div className="homeSlider__img">
               <img src={homeSlider2} alt="homeSlider" />
@@ -81,9 +86,12 @@ const Slider = () => {
                 <p>-Real-time quotes and execution</p>
                 <p>-Dynamic order routing</p>
               </div>
-              <Link to="/" className="open__acc">
+              <a
+                href="https://client.capitalco.pro/register"
+                className="open__acc"
+              >
                 Open Account
-              </Link>
+              </a>
             </div>
             <div className="homeSlider__img">
               <img src={homeSlider3} alt="homeSlider" />

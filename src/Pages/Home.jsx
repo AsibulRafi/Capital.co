@@ -40,7 +40,10 @@ const Home = () => {
                 <li>- Indices</li>
                 <li>- Equities</li>
               </ul>
-              <a href="/" className="open__acc">
+              <a
+                href="https://client.capitalco.pro/register"
+                className="open__acc"
+              >
                 Open Account
               </a>
             </div>

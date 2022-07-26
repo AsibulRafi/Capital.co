@@ -25,8 +25,20 @@ const Navbar = () => {
             </Link>
           </div>
           <div className="nav__btns">
-            <button className="log-in">Login</button>
-            <button className="open-acc">Open account</button>
+            <a
+              href="https://client.capitalco.pro/"
+              className="log-in"
+              style={{ color: "black", textDecoration: "none" }}
+            >
+              Login
+            </a>
+            <a
+              href="https://client.capitalco.pro/register"
+              className="open-acc"
+              style={{ color: "black", textDecoration: "none" }}
+            >
+              Open account
+            </a>
           </div>
         </div>
       </nav>
@@ -71,8 +83,20 @@ const Navbar = () => {
             </li>
             <li>
               <div className="mb-nav__btns">
-                <button className="log-in">Login</button>
-                <button className="open-acc">Open account</button>
+                <a
+                  href="https://client.capitalco.pro/"
+                  className="log-in"
+                  style={{ color: "black", textDecoration: "none" }}
+                >
+                  Login
+                </a>
+                <a
+                  href="https://client.capitalco.pro/register"
+                  className="open-acc"
+                  style={{ color: "black", textDecoration: "none" }}
+                >
+                  Open account
+                </a>
               </div>
             </li>
           </ul>
